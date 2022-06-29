@@ -12,6 +12,8 @@
 #from PIL import Image
 #import numpy
 
+import cv2 as cv
+
 class Agent:
     # The default constructor for your Agent. Make sure to execute any
     # processing necessary before your Agent starts solving problems here.
@@ -32,3 +34,6 @@ class Agent:
     # Returning your answer as a string may cause your program to crash.
     def Solve(self,problem):
         return 1
+
+import cv2 
+print(cv2. __version__)
